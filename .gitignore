@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Data & Large Artifacts (Keep local or link via cloud storage)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Serialized Model Artifacts (> 50 MB)
+models/*
+!models/.gitkeep
+
+# IDE & OS files
+.vscode/
+.DS_Store
+*.env
