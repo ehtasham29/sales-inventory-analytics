@@ -7,4 +7,5 @@ lightgbm
 joblib
 catboost
 xgboost
+dill
 -e .

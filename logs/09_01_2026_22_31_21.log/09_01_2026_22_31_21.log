@@ -1,0 +1,12 @@
+[2026-09-01 22:31:23,054] 26 root - INFO - Entered the data ingestion method or component
+[2026-09-01 22:31:23,071] 29 root - INFO - Read the dataset as dataframe
+[2026-09-01 22:31:23,121] 35 root - INFO - Train test split initiated
+[2026-09-01 22:31:23,171] 46 root - INFO - Ingestion of the data is completed
+[2026-09-01 22:31:23,208] 80 root - INFO - Read train and test data completed
+[2026-09-01 22:31:23,208] 81 root - INFO - Obtaining preprocessing object
+[2026-09-01 22:31:23,208] 59 root - INFO - Categorical columns: ['product_type']
+[2026-09-01 22:31:23,208] 60 root - INFO - Numerical columns: ['demand_lag_1', 'demand_lag_7', 'demand_lag_14', 'demand_lag_30', 'rolling_mean_7', 'rolling_std_7', 'month']
+[2026-09-01 22:31:23,208] 95 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[2026-09-01 22:31:23,254] 102 root - INFO - Input feature train arr shape: (8870, 40)
+[2026-09-01 22:31:23,254] 103 root - INFO - Target feature train shape: (8870,)
+[2026-09-01 22:31:23,254] 114 root - INFO - Saved preprocessing object.
