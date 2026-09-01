@@ -7,6 +7,7 @@ wheels/
 *.egg-info
 
 # Virtual Environment
+.artifacts/
 .venv/
 __pycache__/
 *.pyc
